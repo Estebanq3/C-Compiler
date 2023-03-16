@@ -1,0 +1,13 @@
+10 # calculate the squares of several integers
+12 print 0
+20 input j
+23 #
+25 # test for sentinel value
+30 if j == -9999 jump 99
+33 #
+35 # calculate square of j and assign result to k
+40 set k = j * j
+53 #
+55 # loop to get next j
+60 jump 20
+99 end
